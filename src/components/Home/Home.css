@@ -1,0 +1,14 @@
+.search{
+    background-image:url('../../images/bannerbackground.png');
+    background-repeat: no-repeat;
+    background-position: inherit;
+    
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+/* @media only screen and (min-width: 400px) {
+    .search{ 
+       background-image: url(../../images/bannerbackground.png); 
+    }
+  } */
