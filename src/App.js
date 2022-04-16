@@ -6,6 +6,8 @@ import BreakFast from './components/Breakfast/BreakFast';
 import Lunch from './components/Lunch/Lunch';
 import Dinner from './components/Dinner/Dinner'
 import FoodContainer from'./components/FoodContainer/FoodContainer'
+import Footer from './components/Footer/Footer';
+import FoodDetail from './components/FoodDetail/FoodDetail';
 
 function App() {
   return (
@@ -14,10 +16,15 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}>
             <Route path='/breakfast' element={<BreakFast/>}/>
+            <Route path='/' element={<BreakFast/>}/>
             <Route path='/lunch' element={<Lunch/>}/>
             <Route path='/dinner' element={<Dinner/>}/>
         </Route>
+        <Route path='/fooddetail/'>
+          <Route path=':id' element={<FoodDetail/>}/>
+        </Route>
       </Routes>
+      <Footer/>
     </div>
   );
 }

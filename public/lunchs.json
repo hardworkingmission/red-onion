@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "name":"Chicken and Waffles",
+        "img":"lunch1.png",
+        "description":"French Toast. Don't be confused by the name “French” Toast",
+        "price":5
+    },
+    {
+        "id":"2",
+        "name":"Avocado Toast",
+        "img":"lunch2.png",
+        "description":"French Toast. Don't be confused by the name “French” Toast",
+        "price":10
+    },
+    {
+        "id":"3",
+        "name":"Home Fries",
+        "img":"lunch3.png",
+        "description":"French Toast. Don't be confused by the name “French” Toast",
+        "price":14
+    },
+    {
+        "id":"4",
+        "name":"Cereal",
+        "img":"lunch4.png",
+        "description":"French Toast. Don't be confused by the name “French” Toast",
+        "price":9
+    },
+    {
+        "id":"5",
+        "name":"Lunch Wrap",
+        "img":"lunch5.png",
+        "description":"French Toast. Don't be confused by the name “French” Toast",
+        "price":15
+    },
+    {
+        "id":"6",
+        "name":"Lunch Sandwich.",
+        "img":"lunch6.png",
+        "description":"French Toast. Don't be confused by the name “French” Toast",
+        "price":20
+    }
+]
